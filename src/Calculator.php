@@ -9,7 +9,7 @@ class Calculator
     const HLF_PI = M_PI_2; // 1.5707963267949
 
     /**
-     * Calculates the degreeday value using the single-sine method.
+     * Calculates the degree-days value using the single-sine method.
      * Code originally extracted from DAS v6.0 calculations.
      *
      * @See http://ipm.ucanr.edu/WEATHER/ddconcepts.html
@@ -136,7 +136,7 @@ class Calculator
     }
 
     /**
-     * Calculates the degreeday value based on the passed parameters;
+     * Calculates the degree-days value based on the passed parameters;
      * it uses an approximate formula using just the mean temperature
      */
     public static function degreedaysAvg(
